@@ -419,4 +419,6 @@ void test(duk_context *ctx) {
 
 	/* Shorthands. */
 	TEST(test_putprop_shorthand_a);
+
+	/* FIXME: invalid index coverage */
 }
